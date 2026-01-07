@@ -1,7 +1,7 @@
 <a id="top"></a>
 # 🚀 AWS EKS + Jenkins CI/CD — Project Workflow Execution.
 
-> **Repository:** [my-newsletter-posts-site](https://github.com/sm-simplifies/my-newsletter-posts-site.git)
+> **Repository:** [my-newsletter-posts-site](https://github.com/swapnilmali101/my-newsletter-posts-site.git)
 
 ---
 
@@ -39,7 +39,7 @@ This project demonstrates a **DevOps pipeline** integrating **Jenkins**, **Docke
 ## ⚙️ Prerequisites
 - ✅ AWS Account with required permissions (EC2, EKS, IAM).
 - ✅ Docker Hub account: `smicx20`.
-- ✅ GitHub repository: [my-newsletter-posts-site](https://github.com/sm-simplifies/my-newsletter-posts-site.git).
+- ✅ GitHub repository: [my-newsletter-posts-site](https://github.com/swapnilmali101/my-newsletter-posts-site.git).
 - ✅ Local setup or EC2 instance with AWS CLI and kubectl installed.
 
 ---
@@ -199,6 +199,7 @@ Important Jenkins credential IDs used in the Jenkinsfile must match those create
 ---
 
 [🔝](#top) 
+
 
 
 
