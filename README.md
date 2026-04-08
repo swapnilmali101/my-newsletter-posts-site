@@ -192,21 +192,12 @@ Important Jenkins credential IDs used in the Jenkinsfile must match those create
 
 ---
 
-## 👨‍💻 Author
-**Swapnil Mali** — AWS & DevOps Engineer  
-💡 *"Knowledge should spread!"* 💪
+## 📄 License
 
----
+This project is open source and available under the [MIT License](LICENSE).
 
-[🔝](#top) 
+-----
 
+> Made with ❤️ by [swapnilmali101](https://github.com/swapnilmali101) — Happy 🏗️Building! 🌍
 
-
-
-
-
-
-
-
-
-
+[🔝](#top)
