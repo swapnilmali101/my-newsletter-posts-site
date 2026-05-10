@@ -1,7 +1,7 @@
 <a id="top"></a>
 # 🚀 AWS EKS + Jenkins CI/CD — Project Workflow Execution.
 
-> **Repository:** [my-newsletter-posts-site](https://github.com/swapnilmali101/java-blog-site-cicd-eks-project.git)
+> **Repository:** [java-blog-site-cicd-eks-project](https://github.com/swapnilmali101/java-blog-site-cicd-eks-project.git)
 
 ---
 
@@ -198,6 +198,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 -----
 
-> Made with ❤️ by [swapnilmali101](https://github.com/swapnilmali101) — Happy 🏗️Building! 🌍
+> Made with ❤️ by [swapnilmali101](https://github.com/swapnilmali101) — Happy 📦Containerizing, 🏗️Architecturing and ⛴️Shipping the projects! 🌍
 
 [🔝](#top)
