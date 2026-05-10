@@ -1,7 +1,7 @@
 <a id="top"></a>
 # 🚀 AWS EKS + Jenkins CI/CD — Project Workflow Execution.
 
-> **Repository:** [my-newsletter-posts-site](https://github.com/swapnilmali101/my-newsletter-posts-site.git)
+> **Repository:** [my-newsletter-posts-site](https://github.com/swapnilmali101/java-blog-site-cicd-eks-project.git)
 
 ---
 
@@ -29,7 +29,7 @@ This project demonstrates a **DevOps pipeline** integrating **Jenkins**, **Docke
 <a id="overview"></a>
 ## 🧭 Overview
 - 🔁 **Jenkins** automates: Code → Build → Dockerize → Push → Deploy.
-- 🐳 **Docker Hub** hosts the built image (`smicx20/my-newsletter-posts-site-image`).
+- 🐳 **Docker Hub** hosts the built image (`swapnilmali101/java-blog-site-cicd-eks-project-image`).
 - ☸️ **AWS EKS** runs the application in Kubernetes pods.
 - 📊 **Prometheus** and **Grafana** provide monitoring and visualization.
 
@@ -38,8 +38,8 @@ This project demonstrates a **DevOps pipeline** integrating **Jenkins**, **Docke
 <a id="prerequisites"></a>
 ## ⚙️ Prerequisites
 - ✅ AWS Account with required permissions (EC2, EKS, IAM).
-- ✅ Docker Hub account: `smicx20`.
-- ✅ GitHub repository: [my-newsletter-posts-site](https://github.com/swapnilmali101/my-newsletter-posts-site.git).
+- ✅ Docker Hub account: `swapnilmali101`.
+- ✅ GitHub repository: [java-blog-site-cicd-eks-project](https://github.com/swapnilmali101/java-blog-site-cicd-eks-project.git).
 - ✅ Local setup or EC2 instance with AWS CLI and kubectl installed.
 
 ---
@@ -148,7 +148,7 @@ kubectl get nodes
 The provided Jenkinsfile stages: 
 - Git Checkout: clone the repo. 
 - Maven Build: mvn clean package to produce the WAR. 
-- Docker Build: build image my-newsletter-posts-site-image:v${BUILD_NUMBER} . 
+- Docker Build: build image java-blog-site-cicd-eks-project-image:v${BUILD_NUMBER} . 
 - Docker Login & Push: login to Docker Hub (credential dockerhub-pass), tag and push. 
 - Update Deployment File: update deployments.yaml to new tag using sed. 
 - Kubernetes Deployment: apply deployments.yaml 
