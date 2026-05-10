@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_USER = 'smicx20'   
-        IMAGE_NAME = 'my-newsletter-posts-site-image'
+        DOCKER_HUB_USER = 'swapnilmali101'   
+        IMAGE_NAME = 'java-blog-site-image'
     }
 
     stages {
         stage('Git Checkout') {
             steps {
                 // Checkout code from Git repository 
-                git url: 'https://github.com/sm-simplifies/my-newsletter-posts-site.git', branch: 'master'
+                git url: 'https://github.com/swapnilmali101/java-blog-site-cicd-eks-project.git', branch: 'master'
             }
         }
 
