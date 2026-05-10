@@ -29,7 +29,7 @@ This project demonstrates a **DevOps pipeline** integrating **Jenkins**, **Docke
 <a id="overview"></a>
 ## 🧭 Overview
 - 🔁 **Jenkins** automates: Code → Build → Dockerize → Push → Deploy.
-- 🐳 **Docker Hub** hosts the built image (`swapnilmali101/java-blog-site-cicd-eks-project-image`).
+- 🐳 **Docker Hub** hosts the built image (`swapnilmali101/java-blog-site-image`).
 - ☸️ **AWS EKS** runs the application in Kubernetes pods.
 - 📊 **Prometheus** and **Grafana** provide monitoring and visualization.
 
