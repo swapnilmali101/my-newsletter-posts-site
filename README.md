@@ -148,7 +148,7 @@ kubectl get nodes
 The provided Jenkinsfile stages: 
 - Git Checkout: clone the repo. 
 - Maven Build: mvn clean package to produce the WAR. 
-- Docker Build: build image java-blog-site-cicd-eks-project-image:v${BUILD_NUMBER} . 
+- Docker Build: build image java-blog-site-image:v${BUILD_NUMBER} . 
 - Docker Login & Push: login to Docker Hub (credential dockerhub-pass), tag and push. 
 - Update Deployment File: update deployments.yaml to new tag using sed. 
 - Kubernetes Deployment: apply deployments.yaml 
